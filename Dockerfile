@@ -4,4 +4,3 @@ USER root
 RUN curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 RUN apt-get update && curl -sL https://deb.nodesource.com/setup_10.x | bash - \
  && apt-get install -y  nodejs build-essential gcc make
- 
